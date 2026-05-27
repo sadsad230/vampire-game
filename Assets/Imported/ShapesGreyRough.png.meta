@@ -1,0 +1,2990 @@
+fileFormatVersion: 2
+guid: 0a00708079f887f4eac07849a7292a7a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5087136946465186983
+    second: ShapesGreyRough_0
+  - first:
+      213: 2501957465783343845
+    second: ShapesGreyRough_1
+  - first:
+      213: 4047000361484972084
+    second: ShapesGreyRough_2
+  - first:
+      213: 3787556886507539060
+    second: ShapesGreyRough_3
+  - first:
+      213: -2771071117670813018
+    second: ShapesGreyRough_4
+  - first:
+      213: -9061287441225451549
+    second: ShapesGreyRough_5
+  - first:
+      213: -8741747209334728425
+    second: ShapesGreyRough_6
+  - first:
+      213: -301065618303539228
+    second: ShapesGreyRough_7
+  - first:
+      213: 2253318754038312279
+    second: ShapesGreyRough_8
+  - first:
+      213: 3646306568102920266
+    second: ShapesGreyRough_9
+  - first:
+      213: -9137638383414140614
+    second: ShapesGreyRough_10
+  - first:
+      213: 1242141596425634694
+    second: ShapesGreyRough_11
+  - first:
+      213: 742714433573882797
+    second: ShapesGreyRough_12
+  - first:
+      213: -486721372807724320
+    second: ShapesGreyRough_13
+  - first:
+      213: 9205345194336550347
+    second: ShapesGreyRough_14
+  - first:
+      213: -3071527672302906897
+    second: ShapesGreyRough_15
+  - first:
+      213: 3657748472432551745
+    second: ShapesGreyRough_16
+  - first:
+      213: -8742311722793420644
+    second: ShapesGreyRough_17
+  - first:
+      213: 3895245114391284065
+    second: ShapesGreyRough_18
+  - first:
+      213: 8126065263722454129
+    second: ShapesGreyRough_19
+  - first:
+      213: 9161829921657666238
+    second: ShapesGreyRough_20
+  - first:
+      213: 1929870833374874879
+    second: ShapesGreyRough_21
+  - first:
+      213: -4558084910157471944
+    second: ShapesGreyRough_22
+  - first:
+      213: 639234896357891055
+    second: ShapesGreyRough_23
+  - first:
+      213: -2587991462772412540
+    second: ShapesGreyRough_24
+  - first:
+      213: 4892364414775433222
+    second: ShapesGreyRough_25
+  - first:
+      213: 3326964786759398267
+    second: ShapesGreyRough_26
+  - first:
+      213: -7962359964140363309
+    second: ShapesGreyRough_27
+  - first:
+      213: 5468418590260302839
+    second: ShapesGreyRough_28
+  - first:
+      213: 3017206134673521637
+    second: ShapesGreyRough_29
+  - first:
+      213: -581467274496743873
+    second: ShapesGreyRough_30
+  - first:
+      213: 5632245284633586216
+    second: ShapesGreyRough_31
+  - first:
+      213: 6048826832990693551
+    second: ShapesGreyRough_32
+  - first:
+      213: 5499240407666486527
+    second: ShapesGreyRough_33
+  - first:
+      213: -4138950447774512609
+    second: ShapesGreyRough_34
+  - first:
+      213: -1194400647076961466
+    second: ShapesGreyRough_35
+  - first:
+      213: -1910972584127222711
+    second: ShapesGreyRough_36
+  - first:
+      213: -8015349340733563747
+    second: ShapesGreyRough_37
+  - first:
+      213: 2288411278495735942
+    second: ShapesGreyRough_38
+  - first:
+      213: 1402044658324470209
+    second: ShapesGreyRough_39
+  - first:
+      213: 335496635596770754
+    second: ShapesGreyRough_40
+  - first:
+      213: -3262724662901828129
+    second: ShapesGreyRough_41
+  - first:
+      213: -9051701478999149357
+    second: ShapesGreyRough_42
+  - first:
+      213: -385371370576627180
+    second: ShapesGreyRough_43
+  - first:
+      213: 865893238968472887
+    second: ShapesGreyRough_44
+  - first:
+      213: -6081177424926780284
+    second: ShapesGreyRough_45
+  - first:
+      213: -6454810846177912774
+    second: ShapesGreyRough_46
+  - first:
+      213: 6402504947216764022
+    second: ShapesGreyRough_47
+  - first:
+      213: 798406168108356919
+    second: ShapesGreyRough_48
+  - first:
+      213: 6394583720273524936
+    second: ShapesGreyRough_49
+  - first:
+      213: 2677692106392515710
+    second: ShapesGreyRough_50
+  - first:
+      213: 3993132541867004455
+    second: ShapesGreyRough_51
+  - first:
+      213: -586099708217505997
+    second: ShapesGreyRough_52
+  - first:
+      213: 1846087640300717912
+    second: ShapesGreyRough_53
+  - first:
+      213: -3465987932803375312
+    second: ShapesGreyRough_54
+  - first:
+      213: 5711673095411823564
+    second: ShapesGreyRough_55
+  - first:
+      213: -6737040101553117000
+    second: ShapesGreyRough_56
+  - first:
+      213: -4078784657993980075
+    second: ShapesGreyRough_57
+  - first:
+      213: 472893510687747703
+    second: ShapesGreyRough_58
+  - first:
+      213: -5538163739434188166
+    second: ShapesGreyRough_59
+  - first:
+      213: 2609491148912415395
+    second: ShapesGreyRough_60
+  - first:
+      213: -18776456347095528
+    second: ShapesGreyRough_61
+  - first:
+      213: 6895013505559408662
+    second: ShapesGreyRough_62
+  - first:
+      213: -318560186546376616
+    second: ShapesGreyRough_63
+  - first:
+      213: 2141967255961841655
+    second: ShapesGreyRough_64
+  - first:
+      213: -30762393450739755
+    second: ShapesGreyRough_65
+  - first:
+      213: 2784236204813142967
+    second: ShapesGreyRough_66
+  - first:
+      213: 7846863069748677738
+    second: ShapesGreyRough_67
+  - first:
+      213: 8151050203777454100
+    second: ShapesGreyRough_68
+  - first:
+      213: 7647195456089762787
+    second: ShapesGreyRough_69
+  - first:
+      213: -7893546071734826782
+    second: ShapesGreyRough_70
+  - first:
+      213: -2673587295117329262
+    second: ShapesGreyRough_71
+  - first:
+      213: -3981574205928996356
+    second: ShapesGreyRough_72
+  - first:
+      213: -5124917480391158336
+    second: ShapesGreyRough_73
+  - first:
+      213: -4396047462577023098
+    second: ShapesGreyRough_74
+  - first:
+      213: -516476729652136260
+    second: ShapesGreyRough_75
+  - first:
+      213: -2240692781106322729
+    second: ShapesGreyRough_76
+  - first:
+      213: 5371648928713609759
+    second: ShapesGreyRough_77
+  - first:
+      213: -3605927256095487876
+    second: ShapesGreyRough_78
+  - first:
+      213: -4389746388842739181
+    second: ShapesGreyRough_79
+  - first:
+      213: 3933281532849849522
+    second: ShapesGreyRough_80
+  - first:
+      213: 7051470702253473508
+    second: ShapesGreyRough_81
+  - first:
+      213: -6702359605292518299
+    second: ShapesGreyRough_82
+  - first:
+      213: 1623002293288917707
+    second: ShapesGreyRough_83
+  - first:
+      213: 5347024383780262155
+    second: ShapesGreyRough_84
+  - first:
+      213: 8348448942079253151
+    second: ShapesGreyRough_85
+  - first:
+      213: -4165644990932210570
+    second: ShapesGreyRough_86
+  - first:
+      213: 4433795881366574314
+    second: ShapesGreyRough_87
+  - first:
+      213: -1042806091929048769
+    second: ShapesGreyRough_88
+  - first:
+      213: 6647102765751968689
+    second: ShapesGreyRough_89
+  - first:
+      213: -1568868007080121666
+    second: ShapesGreyRough_90
+  - first:
+      213: -4805363798646623514
+    second: ShapesGreyRough_91
+  - first:
+      213: -4592126709521339403
+    second: ShapesGreyRough_92
+  - first:
+      213: -3021885119636571120
+    second: ShapesGreyRough_93
+  - first:
+      213: 4591673328050798408
+    second: ShapesGreyRough_94
+  - first:
+      213: -3252583798896492834
+    second: ShapesGreyRough_95
+  - first:
+      213: 7862055616770328003
+    second: ShapesGreyRough_96
+  - first:
+      213: -2243505526528276297
+    second: ShapesGreyRough_97
+  - first:
+      213: 2849190319097457757
+    second: ShapesGreyRough_98
+  - first:
+      213: -6764851501035745845
+    second: ShapesGreyRough_99
+  - first:
+      213: -7076669185727828397
+    second: ShapesGreyRough_100
+  - first:
+      213: 2409669336952345055
+    second: ShapesGreyRough_101
+  - first:
+      213: 7842839505247772638
+    second: ShapesGreyRough_102
+  - first:
+      213: -7923633992623642474
+    second: ShapesGreyRough_103
+  - first:
+      213: -8667325544955622474
+    second: ShapesGreyRough_104
+  - first:
+      213: -425956879051769502
+    second: ShapesGreyRough_105
+  - first:
+      213: -754062271383410206
+    second: ShapesGreyRough_106
+  - first:
+      213: -3159521515530805710
+    second: ShapesGreyRough_107
+  - first:
+      213: -1062755579496597070
+    second: ShapesGreyRough_108
+  - first:
+      213: -6600848312951857334
+    second: ShapesGreyRough_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShapesGreyRough_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1155
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4a2d99914299640800000000000000
+      internalID: 5087136946465186983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1155
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea17272f0db8b220800000000000000
+      internalID: 2501957465783343845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1166
+        width: 122
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43070380365d92830800000000000000
+      internalID: 4047000361484972084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1179
+        width: 121
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47acdd2cbea109430800000000000000
+      internalID: 3787556886507539060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_4
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1154
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2f2ef008d2b89d0800000000000000
+      internalID: -2771071117670813018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_5
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1152
+        width: 121
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e77c0ab417df3280800000000000000
+      internalID: -9061287441225451549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_6
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1161
+        width: 122
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71957579a331fa680800000000000000
+      internalID: -8741747209334728425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_7
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1155
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e72fee4a6662dbf0800000000000000
+      internalID: -301065618303539228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_8
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1163
+        width: 120
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ded2cd775654f10800000000000000
+      internalID: 2253318754038312279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_9
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1160
+        width: 118
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40c2f531884a9230800000000000000
+      internalID: 3646306568102920266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1053
+        width: 122
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3120a6bd46903180800000000000000
+      internalID: -9137638383414140614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1044
+        width: 122
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683cfa76339fc3110800000000000000
+      internalID: 1242141596425634694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_12
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1057
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab0abe97d6ae4a00800000000000000
+      internalID: 742714433573882797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_13
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1049
+        width: 122
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2843d7d71de39f0800000000000000
+      internalID: -486721372807724320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_14
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1044
+        width: 122
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd7747aea4ffbf70800000000000000
+      internalID: 9205345194336550347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_15
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1037
+        width: 122
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe15a9e0bddbf55d0800000000000000
+      internalID: -3071527672302906897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_16
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1034
+        width: 113
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147e1192bdee2c230800000000000000
+      internalID: 3657748472432551745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_17
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1028
+        width: 122
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c983a2f8ec11da680800000000000000
+      internalID: -8742311722793420644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_18
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1039
+        width: 107
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1694e5c2bc0be0630800000000000000
+      internalID: 3895245114391284065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_19
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1037
+        width: 103
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c51d9bd4595c070800000000000000
+      internalID: 8126065263722454129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 899
+        width: 86
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba33f4b5cb552f70800000000000000
+      internalID: 9161829921657666238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 920
+        width: 122
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc42bd4c4748ca10800000000000000
+      internalID: 1929870833374874879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_22
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 916
+        width: 122
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fdef98ced6eb0c0800000000000000
+      internalID: -4558084910157471944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_23
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 909
+        width: 120
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb127d50c40fd800800000000000000
+      internalID: 639234896357891055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_24
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 904
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fe4b3f97b951cd0800000000000000
+      internalID: -2587991462772412540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_25
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 898
+        width: 107
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608937ea38b25e340800000000000000
+      internalID: 4892364414775433222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_26
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 898
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73f607b8d0cb2e20800000000000000
+      internalID: 3326964786759398267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_27
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 899
+        width: 116
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d12f9b8cc3008190800000000000000
+      internalID: -7962359964140363309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_28
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 916
+        width: 117
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f39b932cb9b3eb40800000000000000
+      internalID: 5468418590260302839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_29
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 901
+        width: 111
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb385f5ef44fd920800000000000000
+      internalID: 3017206134673521637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 796
+        width: 122
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f366b1738963ee7f0800000000000000
+      internalID: -581467274496743873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_31
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 868
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a2476de31c92e40800000000000000
+      internalID: 5632245284633586216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_32
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8e240e4ffb1f350800000000000000
+      internalID: 6048826832990693551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_33
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 769
+        width: 83
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc6f69b30a315c40800000000000000
+      internalID: 5499240407666486527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_34
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 772
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ac4713f7e7f86c0800000000000000
+      internalID: -4138950447774512609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_35
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6432b7f80f2ac6fe0800000000000000
+      internalID: -1194400647076961466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_36
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 771
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c269b3f8cda75e0800000000000000
+      internalID: -1910972584127222711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_37
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 781
+        width: 107
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c1ae2ed32c3c090800000000000000
+      internalID: -8015349340733563747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_38
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 852
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6806cbaeee112cf10800000000000000
+      internalID: 2288411278495735942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_39
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 777
+        width: 105
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9f9aa3030157310800000000000000
+      internalID: 1402044658324470209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_40
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 801
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd851c996ce7a400800000000000000
+      internalID: 335496635596770754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_41
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 809
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd594dba43978b2d0800000000000000
+      internalID: -3262724662901828129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_42
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 817
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4b06b7675e16280800000000000000
+      internalID: -9051701478999149357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_43
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 809
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41abc2eb7c2e6aaf0800000000000000
+      internalID: -385371370576627180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_44
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 772
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735d02a2055440c00800000000000000
+      internalID: 865893238968472887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_45
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 643
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4845d1bf9515b9ba0800000000000000
+      internalID: -6081177424926780284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_46
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 643
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a381a350cb7eb66a0800000000000000
+      internalID: -6454810846177912774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_47
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 718
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c498bd3544ad850800000000000000
+      internalID: 6402504947216764022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_48
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 733
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73554940e22841b00800000000000000
+      internalID: 798406168108356919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_49
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 718
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8366d73002eb850800000000000000
+      internalID: 6394583720273524936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_50
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 644
+        width: 96
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74b463a8c2192520800000000000000
+      internalID: 2677692106392515710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_51
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 645
+        width: 115
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722190be3e47a6730800000000000000
+      internalID: 3993132541867004455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_52
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 644
+        width: 121
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3374cb0bb61cdd7f0800000000000000
+      internalID: -586099708217505997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_53
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 650
+        width: 113
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8570d588dee9e9910800000000000000
+      internalID: 1846087640300717912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_54
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 652
+        width: 112
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fd675b65656efc0800000000000000
+      internalID: -3465987932803375312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_55
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 645
+        width: 103
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc37d252b60f34f40800000000000000
+      internalID: 5711673095411823564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_56
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 644
+        width: 113
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b86d55d8b93182a0800000000000000
+      internalID: -6737040101553117000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_57
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 694
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557a4f0c6fe3567c0800000000000000
+      internalID: -4078784657993980075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_58
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 677
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e6129742e009600800000000000000
+      internalID: 472893510687747703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_59
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 694
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a728313eb6d7423b0800000000000000
+      internalID: -5538163739434188166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_60
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 661
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2537fcf56c63420800000000000000
+      internalID: 2609491148912415395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_61
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 643
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e6a4599ea4dbff0800000000000000
+      internalID: -18776456347095528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_62
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 661
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610b360804200bf50800000000000000
+      internalID: 6895013505559408662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_63
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 523
+        width: 122
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8503259b23f349bf0800000000000000
+      internalID: -318560186546376616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_64
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 515
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffaf14eedbc9bd10800000000000000
+      internalID: 2141967255961841655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_65
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 515
+        width: 81
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d78de124c5b29ff0800000000000000
+      internalID: -30762393450739755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_66
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 516
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb4ba6a31893a620800000000000000
+      internalID: 2784236204813142967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_67
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 520
+        width: 119
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c40813368a5ec60800000000000000
+      internalID: 7846863069748677738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_68
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 518
+        width: 117
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410d78669f85e1170800000000000000
+      internalID: 8151050203777454100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_69
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 526
+        width: 121
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb263030cb402a60800000000000000
+      internalID: 7647195456089762787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_70
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 521
+        width: 105
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8c0186bad747290800000000000000
+      internalID: -7893546071734826782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_71
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 517
+        width: 103
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cb886358285ead0800000000000000
+      internalID: -2673587295117329262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_72
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 517
+        width: 95
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf18eb0ea5b9eb8c0800000000000000
+      internalID: -3981574205928996356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_73
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 387
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5581e54b2a0e8b0800000000000000
+      internalID: -5124917480391158336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_74
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 388
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687d651cf1a1ef2c0800000000000000
+      internalID: -4396047462577023098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_75
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 385
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6345a962b15d8f0800000000000000
+      internalID: -516476729652136260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_76
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 387
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2206b89c577e0e0800000000000000
+      internalID: -2240692781106322729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_77
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 391
+        width: 119
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12151e8d3eeb8a40800000000000000
+      internalID: 5371648928713609759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_78
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 396
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78878ef34c25fdc0800000000000000
+      internalID: -3605927256095487876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_79
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 395
+        width: 121
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a89fecaec7413c0800000000000000
+      internalID: -4389746388842739181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_80
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 387
+        width: 110
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b48e17f6b2d59630800000000000000
+      internalID: 3933281532849849522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_81
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 394
+        width: 105
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee74ef4e3bdbd160800000000000000
+      internalID: 7051470702253473508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_82
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 402
+        width: 114
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564bc99137f6cf2a0800000000000000
+      internalID: -6702359605292518299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_83
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 259
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca51299cff068610800000000000000
+      internalID: 1623002293288917707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_84
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 259
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b011398e852743a40800000000000000
+      internalID: 5347024383780262155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_85
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 265
+        width: 125
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a9e12b416abd370800000000000000
+      internalID: 8348448942079253151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_86
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 260
+        width: 123
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ca91783f7a036c0800000000000000
+      internalID: -4165644990932210570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_87
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 262
+        width: 112
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4d173ecd1088d30800000000000000
+      internalID: 4433795881366574314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_88
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 262
+        width: 111
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39a4f862653781f0800000000000000
+      internalID: -1042806091929048769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_89
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 265
+        width: 114
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3a9226fb04f3c50800000000000000
+      internalID: 6647102765751968689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_90
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 263
+        width: 122
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebaa38a1cd24a3ae0800000000000000
+      internalID: -1568868007080121666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_91
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 272
+        width: 108
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e27525c51bef4db0800000000000000
+      internalID: -4805363798646623514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_92
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 261
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fba56b761d7540c0800000000000000
+      internalID: -4592126709521339403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_93
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 326
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cf50c8e7b1016d0800000000000000
+      internalID: -3021885119636571120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_94
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 154
+        width: 110
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f7a1b6096e8bf30800000000000000
+      internalID: 4591673328050798408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_95
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 140
+        width: 122
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede759094408cd2d0800000000000000
+      internalID: -3252583798896492834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_96
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 138
+        width: 119
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5c5f1bde1ab1d60800000000000000
+      internalID: 7862055616770328003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_97
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 210
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b808a73c977dd0e0800000000000000
+      internalID: -2243505526528276297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_98
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 135
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c2943ef7b5a8720800000000000000
+      internalID: 2849190319097457757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_99
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 135
+        width: 111
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd0f7ac66b6e12a0800000000000000
+      internalID: -6764851501035745845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_100
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 134
+        width: 122
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e6dbf8ede9acd90800000000000000
+      internalID: -7076669185727828397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_101
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 187
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd11237be7dd07120800000000000000
+      internalID: 2409669336952345055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 143
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf91b41afc57dc60800000000000000
+      internalID: 7842839505247772638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_103
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 135
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698257b6dd8990290800000000000000
+      internalID: -7923633992623642474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_104
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb404c965977b780800000000000000
+      internalID: -8667325544955622474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_105
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 12
+        width: 118
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2693c7ea972b61af0800000000000000
+      internalID: -425956879051769502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 9
+        width: 115
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9eaaffb580985f0800000000000000
+      internalID: -754062271383410206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_107
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 7
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e1596ebef1724d0800000000000000
+      internalID: -3159521515530805710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_108
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3
+        width: 127
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b97a016e655041f0800000000000000
+      internalID: -1062755579496597070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShapesGreyRough_109
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 6
+        width: 122
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f9442ae631564a0800000000000000
+      internalID: -6600848312951857334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ShapesGreyRough_0: 5087136946465186983
+      ShapesGreyRough_1: 2501957465783343845
+      ShapesGreyRough_10: -9137638383414140614
+      ShapesGreyRough_100: -7076669185727828397
+      ShapesGreyRough_101: 2409669336952345055
+      ShapesGreyRough_102: 7842839505247772638
+      ShapesGreyRough_103: -7923633992623642474
+      ShapesGreyRough_104: -8667325544955622474
+      ShapesGreyRough_105: -425956879051769502
+      ShapesGreyRough_106: -754062271383410206
+      ShapesGreyRough_107: -3159521515530805710
+      ShapesGreyRough_108: -1062755579496597070
+      ShapesGreyRough_109: -6600848312951857334
+      ShapesGreyRough_11: 1242141596425634694
+      ShapesGreyRough_12: 742714433573882797
+      ShapesGreyRough_13: -486721372807724320
+      ShapesGreyRough_14: 9205345194336550347
+      ShapesGreyRough_15: -3071527672302906897
+      ShapesGreyRough_16: 3657748472432551745
+      ShapesGreyRough_17: -8742311722793420644
+      ShapesGreyRough_18: 3895245114391284065
+      ShapesGreyRough_19: 8126065263722454129
+      ShapesGreyRough_2: 4047000361484972084
+      ShapesGreyRough_20: 9161829921657666238
+      ShapesGreyRough_21: 1929870833374874879
+      ShapesGreyRough_22: -4558084910157471944
+      ShapesGreyRough_23: 639234896357891055
+      ShapesGreyRough_24: -2587991462772412540
+      ShapesGreyRough_25: 4892364414775433222
+      ShapesGreyRough_26: 3326964786759398267
+      ShapesGreyRough_27: -7962359964140363309
+      ShapesGreyRough_28: 5468418590260302839
+      ShapesGreyRough_29: 3017206134673521637
+      ShapesGreyRough_3: 3787556886507539060
+      ShapesGreyRough_30: -581467274496743873
+      ShapesGreyRough_31: 5632245284633586216
+      ShapesGreyRough_32: 6048826832990693551
+      ShapesGreyRough_33: 5499240407666486527
+      ShapesGreyRough_34: -4138950447774512609
+      ShapesGreyRough_35: -1194400647076961466
+      ShapesGreyRough_36: -1910972584127222711
+      ShapesGreyRough_37: -8015349340733563747
+      ShapesGreyRough_38: 2288411278495735942
+      ShapesGreyRough_39: 1402044658324470209
+      ShapesGreyRough_4: -2771071117670813018
+      ShapesGreyRough_40: 335496635596770754
+      ShapesGreyRough_41: -3262724662901828129
+      ShapesGreyRough_42: -9051701478999149357
+      ShapesGreyRough_43: -385371370576627180
+      ShapesGreyRough_44: 865893238968472887
+      ShapesGreyRough_45: -6081177424926780284
+      ShapesGreyRough_46: -6454810846177912774
+      ShapesGreyRough_47: 6402504947216764022
+      ShapesGreyRough_48: 798406168108356919
+      ShapesGreyRough_49: 6394583720273524936
+      ShapesGreyRough_5: -9061287441225451549
+      ShapesGreyRough_50: 2677692106392515710
+      ShapesGreyRough_51: 3993132541867004455
+      ShapesGreyRough_52: -586099708217505997
+      ShapesGreyRough_53: 1846087640300717912
+      ShapesGreyRough_54: -3465987932803375312
+      ShapesGreyRough_55: 5711673095411823564
+      ShapesGreyRough_56: -6737040101553117000
+      ShapesGreyRough_57: -4078784657993980075
+      ShapesGreyRough_58: 472893510687747703
+      ShapesGreyRough_59: -5538163739434188166
+      ShapesGreyRough_6: -8741747209334728425
+      ShapesGreyRough_60: 2609491148912415395
+      ShapesGreyRough_61: -18776456347095528
+      ShapesGreyRough_62: 6895013505559408662
+      ShapesGreyRough_63: -318560186546376616
+      ShapesGreyRough_64: 2141967255961841655
+      ShapesGreyRough_65: -30762393450739755
+      ShapesGreyRough_66: 2784236204813142967
+      ShapesGreyRough_67: 7846863069748677738
+      ShapesGreyRough_68: 8151050203777454100
+      ShapesGreyRough_69: 7647195456089762787
+      ShapesGreyRough_7: -301065618303539228
+      ShapesGreyRough_70: -7893546071734826782
+      ShapesGreyRough_71: -2673587295117329262
+      ShapesGreyRough_72: -3981574205928996356
+      ShapesGreyRough_73: -5124917480391158336
+      ShapesGreyRough_74: -4396047462577023098
+      ShapesGreyRough_75: -516476729652136260
+      ShapesGreyRough_76: -2240692781106322729
+      ShapesGreyRough_77: 5371648928713609759
+      ShapesGreyRough_78: -3605927256095487876
+      ShapesGreyRough_79: -4389746388842739181
+      ShapesGreyRough_8: 2253318754038312279
+      ShapesGreyRough_80: 3933281532849849522
+      ShapesGreyRough_81: 7051470702253473508
+      ShapesGreyRough_82: -6702359605292518299
+      ShapesGreyRough_83: 1623002293288917707
+      ShapesGreyRough_84: 5347024383780262155
+      ShapesGreyRough_85: 8348448942079253151
+      ShapesGreyRough_86: -4165644990932210570
+      ShapesGreyRough_87: 4433795881366574314
+      ShapesGreyRough_88: -1042806091929048769
+      ShapesGreyRough_89: 6647102765751968689
+      ShapesGreyRough_9: 3646306568102920266
+      ShapesGreyRough_90: -1568868007080121666
+      ShapesGreyRough_91: -4805363798646623514
+      ShapesGreyRough_92: -4592126709521339403
+      ShapesGreyRough_93: -3021885119636571120
+      ShapesGreyRough_94: 4591673328050798408
+      ShapesGreyRough_95: -3252583798896492834
+      ShapesGreyRough_96: 7862055616770328003
+      ShapesGreyRough_97: -2243505526528276297
+      ShapesGreyRough_98: 2849190319097457757
+      ShapesGreyRough_99: -6764851501035745845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

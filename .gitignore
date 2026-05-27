@@ -1,0 +1,52 @@
+# --- Unity-специфичные папки и кэш ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Cc]rash[Rr]eports/
+/[Vv]R/
+/[Aa]sset[Ss]erver[Cc]ache/
+
+# --- Настройки пользователя (окна, открытые вкладки) ---
+/[Uu]ser[Ss]ettings/
+
+# --- Файлы сборки Gradle (для Android) ---
+.gradle/
+
+# --- Автогенерируемые файлы проектов (Visual Studio / Rider / VS Code) ---
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.tmp
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.opendb
+/*.IDentity
+.consulo/
+.idea/
+.vs/
+*.vsconfig
+
+# --- Файлы сборки и вывода пакетов ---
+*.unitypackage
+*.apk
+*.aab
+*.exe
+*.app
+
+# --- Системный мусор ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
