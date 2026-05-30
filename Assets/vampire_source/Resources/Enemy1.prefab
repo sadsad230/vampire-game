@@ -174,9 +174,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69bf5fe9fd0c46af9a241301e888f167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  MaxHp: 10
+  MaxHp: 40
   Damage: 0
-  Speed: 4
+  Speed: 1
 --- !u!50 &3276845073326129332
 Rigidbody2D:
   serializedVersion: 5

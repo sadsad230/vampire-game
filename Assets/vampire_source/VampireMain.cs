@@ -9,14 +9,19 @@ public class VampireMain : MonoBehaviour, IGameSystem
     public UpgradeList upgrades = new UpgradeList();
     
     public float Speed;
-    public int Damage;
+    public int DamageBase;
     public int DamageByContact;
+    public float DashRange;
+    public float DashCd;
     public float BulletSpawnDelay;
     public float BulletSpeed;
     public float BulletLifeTime;
     public int PlayerMaxHp;
     public int PlayerHits;
     public float XPCollectRange;
+
+    public bool IsCanDash;
+    public bool IsPerformingDash;
 
     public float ProjectileSpeed;
     
@@ -29,9 +34,12 @@ public class VampireMain : MonoBehaviour, IGameSystem
     public List<GameObject> XPOrbs = new List<GameObject>();
 
     public int XPCollected;
-    public int XPCollectedMax;
+    public int XPCollectedMax => LevelUpProgression[Mathf.Min(LevelUpProgression.Count - 1, level)];
     public int XPTotal = 0;
     public int XPTotalToSummon = 500;
+    
+    public List<int> LevelUpProgression = new List<int>();
+    private int level;
 
     public float SpawnCooldown;
     public List<Enemy> Enemies = new List<Enemy>();
@@ -48,41 +56,46 @@ public class VampireMain : MonoBehaviour, IGameSystem
         G.Init();
         G.Add(this);
         G.Start();
-        
-        
+
+        upgrade1Btn.onClick.AddListener(() => UpgradeBuy(0));
+        upgrade2Btn.onClick.AddListener(() => UpgradeBuy(1));
+        upgrade3Btn.onClick.AddListener(() => UpgradeBuy(2));
     }
     
     #region UI
 
     public Slider summonSlider;
+    public Slider HpSlider;
     
     private void UpdateUI()
     {
         summonSlider.value = XPTotal;
         summonSlider.maxValue = XPTotalToSummon;
+        HpSlider.value = GetPlayerMaxHp() - PlayerHits;
+        HpSlider.maxValue = GetPlayerMaxHp();
     }
 
     #endregion
     
     #region UPGRADE_UI
 
-    public CanvasGroup upgrade_ui;
+    public Canvas upgrade_ui;
 
     public List<RectTransform> upgrades_sine_fun = new List<RectTransform>();
 
     public Button upgrade1Btn;
     public Image upgrade1Image;
-    public TextMeshProUGUI upgrade1Text;
+    public TextMeshProUGUI upgrade1Name;
     public TextMeshProUGUI upgrade1Desc;
 
     public Button upgrade2Btn;
     public Image upgrade2Image;
-    public TextMeshProUGUI upgrade2Text;
+    public TextMeshProUGUI upgrade2Name;
     public TextMeshProUGUI upgrade2Desc;
 
     public Button upgrade3Btn;
     public Image upgrade3Image;
-    public TextMeshProUGUI upgrade3Text;
+    public TextMeshProUGUI upgrade3Name;
     public TextMeshProUGUI upgrade3Desc;
     
     public enum UpgradeContext
@@ -90,6 +103,39 @@ public class VampireMain : MonoBehaviour, IGameSystem
         XP,
     }
 
+    private void ShowUpgrades(UpgradeContext ctx = UpgradeContext.XP)
+    {
+        G.IsPaused = true;
+        upgrade_ui.gameObject.SetActive(true);
+        
+        upgrades.NewPick(ctx);
+        ShowUpgrade(upgrade1Image, upgrade1Name, upgrade1Desc, upgrades.PickNextRandom());
+        ShowUpgrade(upgrade2Image, upgrade2Name, upgrade2Desc, upgrades.PickNextRandom());
+        ShowUpgrade(upgrade3Image, upgrade3Name, upgrade3Desc, upgrades.PickNextRandom());
+    }
+
+    private void ShowUpgrade(Image image, TextMeshProUGUI name, TextMeshProUGUI desc, VUpgrade upgrade)
+    {
+        name.text = upgrade.name;
+        desc.text = upgrade.desc;
+        //image
+    }
+    
+    private void UpgradeBuy(int p0)
+    {
+        upgrade_ui.gameObject.SetActive(false);
+        G.IsPaused = false;
+        upgrades.AddUpgrade(p0);
+        
+        LevelUp();
+    }
+
+    private void LevelUp()
+    {
+        level++;
+        SpawnCooldown -= 0.05f;
+    }
+    
     #endregion
     
     #region GameLoop
@@ -100,6 +146,8 @@ public class VampireMain : MonoBehaviour, IGameSystem
         
         if (G.IsPaused)
             return;
+        
+        
 
         if (Input.GetKeyDown(KeyCode.Alpha5))
         {
@@ -114,6 +162,9 @@ public class VampireMain : MonoBehaviour, IGameSystem
                 XpCollect(Instantiate(XPOrb, GetPlayerPosition(),  Quaternion.identity));
             }
         }
+        
+        if (Input.GetKeyDown(KeyCode.Alpha7))
+            ShowUpgrades();
     }
 
     private void FixedUpdate()
@@ -146,7 +197,7 @@ public class VampireMain : MonoBehaviour, IGameSystem
         if (XPCollected == XPCollectedMax)
         {
             XPCollected = 0;
-            //DoUpgrade
+            ShowUpgrades();
         }
         
         Destroy(XP);
@@ -258,6 +309,7 @@ public class VampireMain : MonoBehaviour, IGameSystem
     private int GetPlayerMaxHp()
     {
         var maxHp = PlayerMaxHp;
+        maxHp += upgrades.CountUpgrade("Learn Health");
         return maxHp;
     }
 
@@ -270,12 +322,20 @@ public class VampireMain : MonoBehaviour, IGameSystem
     public float GetPlayerSpeed()
     {
         var speed = Speed;
+        speed += upgrades.CountUpgrade("Learn Speed");
         return speed;
     }
 
+    public float GetDashRange()
+    {
+        var range = DashRange;
+        return range;
+    }
+    
     public int GetPlayerDamage()
     {
-        var damage = Damage;
+        var damage = DamageBase;
+        damage += upgrades.CountUpgrade("Learn Damage") * 5;
         return damage;
     }
 
@@ -293,6 +353,11 @@ public class VampireMain : MonoBehaviour, IGameSystem
     public bool IsCollidingWithPlayer(Vector3 position, float range)
     {
         return GameMath.IsColliding(Player.transform.position, position, range);
+    }
+
+    public List<Enemy> CloneEnemies()
+    {
+        return new List<Enemy>(Enemies);
     }
 
     public void OnAdded()

@@ -31,8 +31,11 @@ public class Enemy : ManagedBehaviour
 
         if (GameMath.IsColliding(transform.position, target, 1f))
         {
-            G.vamp.DealDamage(this, G.vamp.GetDamageByContact());
-            G.vamp.DamagePlayer();
+            if (!G.vamp.IsPerformingDash)
+            {
+                G.vamp.DealDamage(this, G.vamp.GetDamageByContact());
+                G.vamp.DamagePlayer();
+            }
         }
         
         transform.position = Vector3.MoveTowards(transform.position, target, Speed * dt);

@@ -1,12 +1,17 @@
-using System;
-using System.Collections.Generic;
+using System.Collections;
+using DG.Tweening;
 using UnityEngine;
 
 public class PlayerController : ManagedBehaviour
 {
     public float TurnSpeed;
     public Vector2 Direction;
+    
+    private Vector2 lastDirection;
+    
+    private bool _isDashing;
 
+    private TimeUntil dashCdEnds;
     private TimeUntil delayEnds;
 
     protected override void ManagedFixedUpdate(float dt)
@@ -19,6 +24,10 @@ public class PlayerController : ManagedBehaviour
     {
         Direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         Direction = Vector2.ClampMagnitude(Direction, 1f);
+        
+        if (Direction != Vector2.zero)
+            lastDirection = Direction;
+        
         transform.position += (Vector3)(Direction * G.vamp.GetPlayerSpeed() * dt);
         
         if (Direction != Vector2.zero)
@@ -29,6 +38,32 @@ public class PlayerController : ManagedBehaviour
         }
         
         transform.position = Vector3.ClampMagnitude(transform.position, 70f);
+        
+        G.vamp.IsPerformingDash = _isDashing;
+
+        if (G.vamp.IsCanDash && Input.GetKeyDown(KeyCode.Space))
+        {
+            if (!_isDashing)
+                StartCoroutine(Dash());
+        }
+    }
+
+    private IEnumerator Dash()
+    {
+        if (_isDashing || !dashCdEnds) 
+            yield break;
+        
+        if (Direction == Vector2.zero)
+            Direction = lastDirection;
+
+        _isDashing = true;
+
+        yield return transform.DOBlendableMoveBy(Direction * G.vamp.GetDashRange(), 0.25f)
+            .SetEase(Ease.Flash)
+            .WaitForCompletion();
+        
+        _isDashing = false;
+        dashCdEnds = G.vamp.DashCd;
     }
     
     #region AutoAttack

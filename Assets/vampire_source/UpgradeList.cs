@@ -15,7 +15,7 @@ public class UpgradeList
 {
     public List<VUpgrade> upgrades = new List<VUpgrade>()
     {
-        new VUpgrade() { name = "Dash", desc = "You gain ability to perform dash", xpComplete = true, unique = true },
+        new VUpgrade() { name = "Dash", desc = "You gain ability to perform dash", xpComplete = true, priority = true, unique = true},
 
         new VUpgrade() { name = "Learn Damage", desc = "Increases your base damage by 5", xpComplete = true },
         new VUpgrade() { name = "Learn Speed", desc = "Increases your move speed", xpComplete = true },
@@ -49,7 +49,7 @@ public class UpgradeList
             {
                 foreach (var gu in gupgrades)
                 {
-                    if (!upgrades.Contains(gu) && !suggestedPriority.Contains(gu) && gu.priority)
+                    if (!upgradesInPick.Contains(gu) && !suggestedPriority.Contains(gu) && gu.priority)
                     {
                         suggestedPriority.Add(gu);
                         upgradesInPick.Add(gu);
@@ -72,19 +72,36 @@ public class UpgradeList
 
     public void AddUpgrade(string name)
     {
+        var vUpgrade =  upgrades.Find(m => m.name == name);
+        if (vUpgrade == null)
+        {
+            Debug.Log("failed to add " + name);
+            return;
+        }
+        
+        purchasedUpgrades.Add(vUpgrade);
+        
+        if (name is "Hit")
+        {
+            var cloneEnemies = G.vamp.CloneEnemies();
+            foreach (var en in cloneEnemies)
+            {
+                G.vamp.DealDamage(en, 50);
+            }
+        }
+
+        if (name == "Dash")
+        {
+            G.vamp.IsCanDash = true;
+        }
+        
         if (name == "Collect")
         {
             var xpOrbs = new List<GameObject>(G.vamp.XPOrbs);
             foreach (var xp in xpOrbs)
                 G.vamp.XpCollect(xp);
             G.vamp.XPOrbs.Clear();
-            return;
         }
-        
-        var vUpgrade = upgrades.Find(m => m.name == name);
-        if (vUpgrade == null)
-            Debug.Log("failed to add " + name);
-        purchasedUpgrades.Add(vUpgrade);
     }
 
     private bool IsInContext(VUpgrade upgrade)

@@ -67,4 +67,10 @@ public static class GameMath
 		RectTransformUtility.ScreenPointToWorldPointInRectangle(rectTransform, screenPosition, Camera.main, out worldPosition);
 		return worldPosition;
 	}
+	
+	public static Vector3 GetInputAxis2D()
+	{
+		var inputAxis2D = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+		return inputAxis2D.normalized;
+	}
 }
