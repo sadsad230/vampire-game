@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,8 +7,11 @@ using UnityEngine.UI;
 
 public class VampireMain : MonoBehaviour, IGameSystem
 {
+    [Header("Main")]
     public UpgradeList upgrades = new UpgradeList();
+    public AudioSystem AudioSystem;
     
+    [Header("PlayerStats")]
     public float Speed;
     public int DamageBase;
     public int DamageByContact;
@@ -19,44 +23,63 @@ public class VampireMain : MonoBehaviour, IGameSystem
     public int PlayerMaxHp;
     public int PlayerHits;
     public float XPCollectRange;
-
+    
+    public GameObject Player;
+    public GameObject PlayerBullet;
+    
+    [Header("PlayerState")]
     public bool IsCanDash;
     public bool IsPerformingDash;
 
-    public float ProjectileSpeed;
-    
-    public GameObject Player;
-    public GameObject XPOrb;
+    [Header("Projectiles")]
     public GameObject Projectile;
-    public GameObject PlayerBullet;
-    public GameObject EnemyObject;
+    public float ProjectileSpeed;
+    public GameObject OrbitalProjectile;
+    public GameObject OrbitWeapon;
     
+    public GameObject CurrentOrbitalWeapon;
+    
+    [Header("Enemies")]
+    public GameObject EnemyObject;
+    public GameObject Boss;
+    public GameObject BossSpawnPos;
+    
+    public float SpawnCooldown;
+    public float CooldownHitPlayer;
+    public List<Enemy> Enemies = new List<Enemy>();
+    
+    private float enemyDamageCd = 0.2f;
+    private bool _isSummon;
+    
+    
+    [Header("XP")]
+    public GameObject XPOrb;
     public List<GameObject> XPOrbs = new List<GameObject>();
 
     public int XPCollected;
     public int XPCollectedMax => LevelUpProgression[Mathf.Min(LevelUpProgression.Count - 1, level)];
     public int XPTotal = 0;
     public int XPTotalToSummon = 500;
-    
     public List<int> LevelUpProgression = new List<int>();
     private int level;
+    
 
-    public float SpawnCooldown;
-    public List<Enemy> Enemies = new List<Enemy>();
-    public float CooldownHitPlayer;
+    [Header("Other")]
+    public ObjectPool DamageText;
     
     private TimeUntil cooldownHitPlayerEnds = 0;
     private TimeUntil toSpawnEnemy = 0;
     
-
-    
-
     private void Awake()
     {
         G.Init();
         G.Add(this);
+        G.Add(AudioSystem);
         G.Start();
 
+        G.Get<AudioSystem>().SetVolume(AudioType.SFX, 0.3f);
+        
+        
         upgrade1Btn.onClick.AddListener(() => UpgradeBuy(0));
         upgrade2Btn.onClick.AddListener(() => UpgradeBuy(1));
         upgrade3Btn.onClick.AddListener(() => UpgradeBuy(2));
@@ -64,6 +87,7 @@ public class VampireMain : MonoBehaviour, IGameSystem
     
     #region UI
 
+    [Header("Hud")]
     public Slider summonSlider;
     public Slider HpSlider;
     
@@ -79,6 +103,7 @@ public class VampireMain : MonoBehaviour, IGameSystem
     
     #region UPGRADE_UI
 
+    [Header("Upgrade Ui")]
     public Canvas upgrade_ui;
 
     public List<RectTransform> upgrades_sine_fun = new List<RectTransform>();
@@ -147,8 +172,6 @@ public class VampireMain : MonoBehaviour, IGameSystem
         if (G.IsPaused)
             return;
         
-        
-
         if (Input.GetKeyDown(KeyCode.Alpha5))
         {
             XpCollect(Instantiate(XPOrb, GetPlayerPosition(),  Quaternion.identity));
@@ -174,9 +197,17 @@ public class VampireMain : MonoBehaviour, IGameSystem
         
         UpdateXP();
         SpawnEnemy();
-        
+
         if (XPTotal >= XPTotalToSummon)
-            SceneManager.LoadScene("Victory");
+        {
+            if (!_isSummon)
+            {
+                _isSummon = true;
+                
+                var boss = Instantiate(Boss, BossSpawnPos.transform.position, Quaternion.identity);
+                boss.GetComponent<Boss>().NumberOfPoints = 6;
+            }
+        }
     }
     
     #endregion
@@ -191,6 +222,8 @@ public class VampireMain : MonoBehaviour, IGameSystem
     
     public void OnXPRemoved(GameObject XP)
     {
+        G.Get<AudioSystem>().PlaySFX("pickup");
+        
         XPCollected++;
         XPTotal++;
 
@@ -258,12 +291,19 @@ public class VampireMain : MonoBehaviour, IGameSystem
         StopAllCoroutines();
     }
 
-    public void DealDamage(Enemy en, int damage)
+    public void DealDamage(Enemy en, int damage, Vector3 position)
     {
+        if (!en.EndsDamageCd)
+            return;
+        en.EndsDamageCd = enemyDamageCd;
+        
         en.Damage += damage;
+        
+        AnimateDamageText(damage, position);
 
         if (en.Hp() <= 0)
         {
+            G.Get<AudioSystem>().PlaySFX("hit");
             RemoveEnemy(en);
         }
     }
@@ -291,7 +331,20 @@ public class VampireMain : MonoBehaviour, IGameSystem
                 enemiesOnScreen.Add(e);
         return enemiesOnScreen;
     }
-    
+
+    public void AnimateDamageText(int damage, Vector3 position)
+    {
+        var requestObject = DamageText.RequestObject();
+        requestObject.GetComponent<TMP_Text>().text = damage.ToString();
+        requestObject.transform.position = position + Vector3.up;
+        
+        requestObject.transform.localScale = Vector3.one;
+        requestObject.transform.DOBlendableMoveBy(Vector3.up * 2, 1f);
+        requestObject.transform.DOScale(0, 1f).OnComplete(() =>
+        {
+            requestObject.GetComponent<PoolItem>().ReturnToPool();
+        });
+    }
 
     public void DamagePlayer()
     {
@@ -358,6 +411,23 @@ public class VampireMain : MonoBehaviour, IGameSystem
     public List<Enemy> CloneEnemies()
     {
         return new List<Enemy>(Enemies);
+    }
+
+    public void DestroyOrbitWeapon()
+    {
+        if (CurrentOrbitalWeapon != null)
+        {
+            Destroy(CurrentOrbitalWeapon);
+        }
+    }
+
+    public void CreateOrbitWeapon(int count)
+    {
+        var obj = Instantiate(OrbitWeapon, Player.transform);
+        var weapon = obj.GetComponent<OrbitWeapon>();
+        weapon.InitOrbitSystem(count, OrbitalProjectile);
+
+        CurrentOrbitalWeapon = obj;
     }
 
     public void OnAdded()

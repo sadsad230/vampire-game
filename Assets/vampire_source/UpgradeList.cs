@@ -16,7 +16,12 @@ public class UpgradeList
     public List<VUpgrade> upgrades = new List<VUpgrade>()
     {
         new VUpgrade() { name = "Dash", desc = "You gain ability to perform dash", xpComplete = true, priority = true, unique = true},
+        
+        new VUpgrade() { name = "Dashcut", desc = "Dash deals damage to enemies!", xpComplete = true, unique = true },
 
+        new VUpgrade() { name = "Ricochet", desc = "+1 Ricochet Target",  xpComplete = true},
+        new VUpgrade() { name = "Saw", desc = "Adds a saw around the player.",  xpComplete = true},
+        
         new VUpgrade() { name = "Learn Damage", desc = "Increases your base damage by 5", xpComplete = true },
         new VUpgrade() { name = "Learn Speed", desc = "Increases your move speed", xpComplete = true },
         new VUpgrade() { name = "Learn Health", desc = "Increases your max health", xpComplete = true },
@@ -86,8 +91,15 @@ public class UpgradeList
             var cloneEnemies = G.vamp.CloneEnemies();
             foreach (var en in cloneEnemies)
             {
-                G.vamp.DealDamage(en, 50);
+                G.vamp.DealDamage(en, 50, en.transform.position);
             }
+        }
+        
+        if (name is "Saw")
+        {
+            G.vamp.DestroyOrbitWeapon();
+            
+            G.vamp.CreateOrbitWeapon(CountUpgrade(name));
         }
 
         if (name == "Dash")

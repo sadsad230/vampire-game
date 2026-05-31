@@ -1675,7 +1675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShapesGreySoft_56
+      name: pila
       rect:
         serializedVersion: 2
         x: 131
@@ -2959,7 +2959,6 @@ TextureImporter:
       ShapesGreySoft_53: -2525194775903914596
       ShapesGreySoft_54: 8676350804287747758
       ShapesGreySoft_55: -8250817161445621346
-      ShapesGreySoft_56: 8787923842334276322
       ShapesGreySoft_57: -4315550274185290019
       ShapesGreySoft_58: -6354405255976443858
       ShapesGreySoft_59: 5274384117391903044
@@ -3008,6 +3007,7 @@ TextureImporter:
       ShapesGreySoft_99: -805956874449461314
       arrow: 2886018668317429562
       circle: -7999901381037909440
+      pila: 8787923842334276322
       tipoKrug: 1467800983540357284
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

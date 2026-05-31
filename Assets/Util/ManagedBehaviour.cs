@@ -7,7 +7,7 @@ public abstract class ManagedBehaviour : MonoBehaviour
         Init();
     }
 
-    protected virtual void Init()
+    public virtual void Init()
     {
     }
 

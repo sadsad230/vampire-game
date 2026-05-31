@@ -79,7 +79,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_MaskInteraction: 0
   m_Sprite: {fileID: -7999901381037909440, guid: 76c3a7dd9cd3e624d8d68d8b0d81f02a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -136,3 +136,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7accc0d793c16204ab38e67085f0d956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  smoothTime: 0.1

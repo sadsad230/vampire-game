@@ -80,7 +80,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8026885813570531686, guid: 76c3a7dd9cd3e624d8d68d8b0d81f02a, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
@@ -176,7 +176,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   MaxHp: 40
   Damage: 0
-  Speed: 1
+  Range: 0.5
+  Speed: 3
 --- !u!50 &3276845073326129332
 Rigidbody2D:
   serializedVersion: 5

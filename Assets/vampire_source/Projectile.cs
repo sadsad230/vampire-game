@@ -8,23 +8,35 @@ public enum ProjectileOwner
 
 public class Projectile : ManagedBehaviour
 {
-    public ProjectileOwner Owner;
+    public ProjectileOwner Owner = ProjectileOwner.Enemy;
     public Vector3 Direction;
     public float Speed;
     public float Range = 1f;
+    public float LifeTime = 3f;
+
+    private TimeUntil die;
+
+    public void Init()
+    {
+        die = LifeTime;
+    }
 
     protected override void ManagedFixedUpdate(float dt)
     {
         base.ManagedFixedUpdate(dt);
 
-        transform.position += Direction * Speed * dt;
+        
+        transform.position += Direction.normalized * Speed * dt;
         
         if (Owner == ProjectileOwner.Enemy)
         {
-            if (G.vamp.IsCollidingWithPlayer(transform.position, Range))
+            if (!G.vamp.IsPerformingDash)
             {
-                G.vamp.DamagePlayer();
-                Destroy(gameObject);
+                if (G.vamp.IsCollidingWithPlayer(transform.position, Range))
+                {
+                    G.vamp.DamagePlayer();
+                    Destroy(gameObject);
+                }
             }
         }
 
@@ -34,10 +46,15 @@ public class Projectile : ManagedBehaviour
             {
                 if (GameMath.IsColliding(enemy.transform.position, transform.position, Range))
                 {
-                    G.vamp.DealDamage(enemy, G.vamp.GetPlayerDamage());
+                    G.vamp.DealDamage(enemy, G.vamp.GetPlayerDamage(), enemy.transform.position);
                     Destroy(gameObject);
                 }
             }
+        }
+
+        if (die)
+        {
+            Destroy(gameObject);
         }
     }
 }

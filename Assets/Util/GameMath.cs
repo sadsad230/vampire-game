@@ -73,4 +73,35 @@ public static class GameMath
 		var inputAxis2D = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 		return inputAxis2D.normalized;
 	}
+	
+	public static List<Vector2> Arc(Vector2 origin, float radius, Vector2 direction, int numberOfPoints)
+	{
+		List<Vector2> points = new List<Vector2>();
+		
+		direction.Normalize();
+		
+		float angle = Mathf.Atan2(direction.y, direction.x);
+
+		float verticalRange = radius / 2;
+		
+		float startAngle = angle - Mathf.Asin(verticalRange / radius);
+		float endAngle = angle + Mathf.Asin(verticalRange / radius);
+		
+		float angleIncrement = (endAngle - startAngle) / (numberOfPoints - 1);
+
+		for (int i = 0; i < numberOfPoints; i++)
+		{
+			float currentAngle = startAngle + angleIncrement * i;
+			float x = origin.x + radius * Mathf.Cos(currentAngle);
+			float y = origin.y + radius * Mathf.Sin(currentAngle);
+			points.Add(new Vector2(x, y));
+		}
+
+		return points;
+	}
+	
+	public static float Inverse01(float damage)
+	{
+		return 1f - Mathf.Clamp01(damage);
+	}
 }

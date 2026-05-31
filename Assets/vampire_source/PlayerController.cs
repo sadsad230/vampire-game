@@ -10,9 +10,17 @@ public class PlayerController : ManagedBehaviour
     private Vector2 lastDirection;
     
     private bool _isDashing;
+    
+    private AudioSystem  AudioSystem;
 
     private TimeUntil dashCdEnds;
     private TimeUntil delayEnds;
+
+    public override void Init()
+    {
+        base.Init();
+        AudioSystem = G.Get<AudioSystem>();
+    }
 
     protected override void ManagedFixedUpdate(float dt)
     {
@@ -57,6 +65,8 @@ public class PlayerController : ManagedBehaviour
             Direction = lastDirection;
 
         _isDashing = true;
+        
+        AudioSystem.PlaySFX("woosh");
 
         yield return transform.DOBlendableMoveBy(Direction * G.vamp.GetDashRange(), 0.25f)
             .SetEase(Ease.Flash)
@@ -81,7 +91,7 @@ public class PlayerController : ManagedBehaviour
             var bulletScript = bulletGO.GetComponent<PlayerBullet>();
             if (bulletScript != null)
             {
-                bulletScript.Initialize(target, G.vamp.BulletSpeed);
+                bulletScript.Initialize(target, G.vamp.BulletSpeed, G.vamp.upgrades.CountUpgrade("Ricochet"));
             }
             
             delayEnds = G.vamp.BulletSpawnDelay;
