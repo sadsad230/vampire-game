@@ -8,7 +8,7 @@ public class Boss : Enemy
 {
     public Slider healthBar;
 
-    public GameObject loot;
+    
 
     public int NumberOfPoints;
     public float ArcRadius;
@@ -67,7 +67,7 @@ public class Boss : Enemy
 
     protected override void OnKill()
     {
-        if (IsFinalBoss)
+        if (IsFinalBoss && !G.vamp.IsPlayerDead)
         {
             G.IsPaused = true;
             SceneManager.LoadScene("Victory");

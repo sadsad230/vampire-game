@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2ec90f6096244f8bee80c5b3c436537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OrbitWeapon
-  OrbitRadius: 2
-  RotationDuration: 2
+  OrbitRadius: 2.5
+  RotationDuration: 3

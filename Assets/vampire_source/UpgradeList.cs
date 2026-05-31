@@ -7,6 +7,7 @@ public class VUpgrade
     public string desc;
 
     public bool xpComplete;
+    public bool Chest;
     public bool unique;
     public bool priority;
 }
@@ -22,9 +23,9 @@ public class UpgradeList
         new VUpgrade() { name = "Ricochet", desc = "+1 Ricochet Target",  xpComplete = true},
         new VUpgrade() { name = "Saw", desc = "Adds a saw around the player.",  xpComplete = true},
         
-        new VUpgrade() { name = "Learn Damage", desc = "Increases your base damage by 5", xpComplete = true },
-        new VUpgrade() { name = "Learn Speed", desc = "Increases your move speed", xpComplete = true },
-        new VUpgrade() { name = "Learn Health", desc = "Increases your max health", xpComplete = true },
+        new VUpgrade() { name = "Learn Damage", desc = "Increases your base damage by 5", Chest = true },
+        new VUpgrade() { name = "Learn Speed", desc = "Increases your move speed", Chest = true },
+        new VUpgrade() { name = "Learn Health", desc = "Increases your max health", Chest = true },
 
         new VUpgrade() { name = "Collect", desc = "Collect all xp orbs", xpComplete = true },
         new VUpgrade() { name = "Hit", desc = "Hit every enemy for 50 damage", xpComplete = true },
@@ -119,7 +120,14 @@ public class UpgradeList
     private bool IsInContext(VUpgrade upgrade)
     {
         if (ctx == VampireMain.UpgradeContext.XP)
+        {
             return upgrade.xpComplete;
+        }
+
+        if (ctx == VampireMain.UpgradeContext.Chest)
+        {
+            return upgrade.Chest;
+        }
         
         return false;
     }

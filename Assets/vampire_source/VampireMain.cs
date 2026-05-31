@@ -1,9 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class VampireMain : MonoBehaviour, IGameSystem
 {
@@ -42,12 +44,17 @@ public class VampireMain : MonoBehaviour, IGameSystem
     [Header("Enemies")]
     public GameObject EnemyObject;
     public GameObject Boss;
+    public GameObject MiniBoss;
     public GameObject BossSpawnPos;
-    
+
+    public int EnemyBaseHp = 40;
+    public int BossBaseHp = 150;
     public float SpawnCooldown;
     public float CooldownHitPlayer;
     public List<Enemy> Enemies = new List<Enemy>();
-    
+
+    private int enemyLevel = 1;
+    private int bossLevel = 1;
     private float enemyDamageCd = 0.2f;
     private bool _isSummon;
     
@@ -62,13 +69,36 @@ public class VampireMain : MonoBehaviour, IGameSystem
     public int XPTotalToSummon = 500;
     public List<int> LevelUpProgression = new List<int>();
     private int level;
-    
 
+
+    [Header("Events")] 
+    private int eventIndex;
+
+    private TimeSince eventClock;
+    
+    private List<(float, string)> eventList = new List<(float, string)>()
+    {
+        (30f, "MiniBoss"),
+        (10f, "MiniBoss"),
+        (20f, "EnemyBuff"),
+        (15f, "MiniBoss"),
+        (15f, "MiniBoss"),
+        (30f, "EnemyBuff"),
+        (10f, "MiniBoss"),
+        (30f, "EnemyBuff"),
+        (10f, "MiniBoss"),
+        (10f, "MiniBoss"),
+    };
+    
     [Header("Other")]
     public ObjectPool DamageText;
+
+    public bool IsPlayerDead;
     
     private TimeUntil cooldownHitPlayerEnds = 0;
     private TimeUntil toSpawnEnemy = 0;
+
+    private TimeSince gameStart;
     
     private void Awake()
     {
@@ -84,7 +114,12 @@ public class VampireMain : MonoBehaviour, IGameSystem
         upgrade2Btn.onClick.AddListener(() => UpgradeBuy(1));
         upgrade3Btn.onClick.AddListener(() => UpgradeBuy(2));
     }
-    
+
+    private void Start()
+    {
+        eventClock = 0;
+    }
+
     #region UI
 
     [Header("Hud")]
@@ -126,9 +161,10 @@ public class VampireMain : MonoBehaviour, IGameSystem
     public enum UpgradeContext
     {
         XP,
+        Chest
     }
 
-    private void ShowUpgrades(UpgradeContext ctx = UpgradeContext.XP)
+    public void ShowUpgrades(UpgradeContext ctx = UpgradeContext.XP)
     {
         G.IsPaused = true;
         upgrade_ui.gameObject.SetActive(true);
@@ -195,6 +231,7 @@ public class VampireMain : MonoBehaviour, IGameSystem
         if (G.IsPaused)
             return;
         
+        UpdateEvents();
         UpdateXP();
         SpawnEnemy();
 
@@ -204,8 +241,33 @@ public class VampireMain : MonoBehaviour, IGameSystem
             {
                 _isSummon = true;
                 
-                var boss = Instantiate(Boss, BossSpawnPos.transform.position, Quaternion.identity);
-                boss.GetComponent<Boss>().NumberOfPoints = 6;
+                Instantiate(Boss, BossSpawnPos.transform.position, Quaternion.identity);
+            }
+        }
+    }
+
+    private void UpdateEvents()
+    {
+        if (eventList.Count > 0)
+        {
+            if (eventClock > eventList[eventIndex].Item1)
+            {
+                switch (eventList[eventIndex].Item2)
+                {
+                    case "EnemyBuff":
+                        enemyLevel++;
+                        Debug.Log("Buff enemy " + enemyLevel);
+                        break;
+                    case "MiniBoss":
+                        bossLevel++;
+                        var boss = Instantiate(MiniBoss, BossSpawnPos.transform.position, Quaternion.identity);
+                        boss.GetComponent<Enemy>().MaxHp = BossBaseHp * bossLevel;
+                        break;
+                }
+
+                eventIndex++;
+                eventIndex %= eventList.Count;
+                eventClock = 0;
             }
         }
     }
@@ -274,8 +336,11 @@ public class VampireMain : MonoBehaviour, IGameSystem
         var rand = Random.Range(10, 100);
 
         var pos = (Vector2)GetPlayerPosition() + Random.insideUnitCircle.normalized * rand;
+
+        var hp = GetEnemyHp();
         
-        Instantiate(EnemyObject, pos, Quaternion.identity);
+        var en = Instantiate(EnemyObject, pos, Quaternion.identity);
+        en.GetComponent<Enemy>().MaxHp = hp;
 
         toSpawnEnemy = SpawnCooldown;
     }
@@ -287,8 +352,9 @@ public class VampireMain : MonoBehaviour, IGameSystem
     private void GameOver()
     {
         G.IsPaused = true;
-        //show game over screen
+        IsPlayerDead = true;
         StopAllCoroutines();
+        SceneManager.LoadScene("Defeat");
     }
 
     public void DealDamage(Enemy en, int damage, Vector3 position)
@@ -298,21 +364,28 @@ public class VampireMain : MonoBehaviour, IGameSystem
         en.EndsDamageCd = enemyDamageCd;
         
         en.Damage += damage;
+        en.StunEnemy(0.01f);
         
         AnimateDamageText(damage, position);
 
         if (en.Hp() <= 0)
         {
             G.Get<AudioSystem>().PlaySFX("hit");
+            
+            if (en.loot != null)
+                Instantiate(en.loot, en.transform.position, Quaternion.identity);
+            
             RemoveEnemy(en);
         }
     }
 
     public void RemoveEnemy(Enemy en)
     {
-        var rnd = Random.Range(1, 3);
+        var rndReward = Random.Range(1, 3);
 
-        for (var i = 1; i < 1 + rnd; i++)
+        rndReward += en.BonusXPReward;
+
+        for (var i = 1; i < 1 + rndReward; i++)
         {
             AddXP(en.transform.position);
         }
@@ -323,6 +396,7 @@ public class VampireMain : MonoBehaviour, IGameSystem
     #endregion
     
     List<Enemy> enemiesOnScreen = new List<Enemy>();
+
     public List<Enemy> GetEnemiesOnScreen()
     {
         enemiesOnScreen.Clear();
@@ -357,6 +431,12 @@ public class VampireMain : MonoBehaviour, IGameSystem
 
         if (PlayerHits >= GetPlayerMaxHp())
             GameOver();
+    }
+
+    private int GetEnemyHp()
+    {
+        var hp = EnemyBaseHp * enemyLevel;
+        return hp;
     }
 
     private int GetPlayerMaxHp()

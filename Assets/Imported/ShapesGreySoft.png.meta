@@ -971,7 +971,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShapesGreySoft_24
+      name: s
       rect:
         serializedVersion: 2
         x: 514
@@ -1477,7 +1477,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShapesGreySoft_47
+      name: o
       rect:
         serializedVersion: 2
         x: 400
@@ -2291,7 +2291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShapesGreySoft_84
+      name: quad
       rect:
         serializedVersion: 2
         x: 131
@@ -2313,7 +2313,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShapesGreySoft_85
+      name: threeangle
       rect:
         serializedVersion: 2
         x: 258
@@ -2797,7 +2797,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ShapesGreySoft_107
+      name: ss
       rect:
         serializedVersion: 2
         x: 643
@@ -2909,7 +2909,6 @@ TextureImporter:
       ShapesGreySoft_104: 4941482661547663367
       ShapesGreySoft_105: -1420460656769643226
       ShapesGreySoft_106: -7266893302218608366
-      ShapesGreySoft_107: 1150835824507066236
       ShapesGreySoft_108: 32100341090892727
       ShapesGreySoft_109: -2747631382148795705
       ShapesGreySoft_11: -1930028294703881874
@@ -2926,7 +2925,6 @@ TextureImporter:
       ShapesGreySoft_21: 7120903970745884606
       ShapesGreySoft_22: 8806866305053531767
       ShapesGreySoft_23: -6520008288970471176
-      ShapesGreySoft_24: 3421302686075704762
       ShapesGreySoft_25: 292013527328960685
       ShapesGreySoft_26: 3706753815981865592
       ShapesGreySoft_27: 3903779326275483199
@@ -2951,7 +2949,6 @@ TextureImporter:
       ShapesGreySoft_44: -4238061736571894461
       ShapesGreySoft_45: 2217281135673015764
       ShapesGreySoft_46: 5399340103431097702
-      ShapesGreySoft_47: -6437189558196661159
       ShapesGreySoft_5: -8955148373354594808
       ShapesGreySoft_50: -6652341987241423840
       ShapesGreySoft_51: -6909240066766913236
@@ -2988,8 +2985,6 @@ TextureImporter:
       ShapesGreySoft_81: -2274853886260948144
       ShapesGreySoft_82: -2325993793495084313
       ShapesGreySoft_83: -8834285058150248271
-      ShapesGreySoft_84: -8835847522261185069
-      ShapesGreySoft_85: -7502186592571574049
       ShapesGreySoft_86: 3080177758718979838
       ShapesGreySoft_87: 8789375189387550871
       ShapesGreySoft_88: 5668928495462639071
@@ -3007,7 +3002,12 @@ TextureImporter:
       ShapesGreySoft_99: -805956874449461314
       arrow: 2886018668317429562
       circle: -7999901381037909440
+      o: -6437189558196661159
       pila: 8787923842334276322
+      quad: -8835847522261185069
+      s: 3421302686075704762
+      ss: 1150835824507066236
+      threeangle: -7502186592571574049
       tipoKrug: 1467800983540357284
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

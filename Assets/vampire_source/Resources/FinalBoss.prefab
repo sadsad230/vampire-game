@@ -388,10 +388,10 @@ MonoBehaviour:
   MaxHp: 3000
   Damage: 0
   Range: 1
+  loot: {fileID: 0}
   Speed: 1
   healthBar: {fileID: 4946500873999502177}
-  loot: {fileID: 0}
-  NumberOfPoints: 0
+  NumberOfPoints: 6
   ArcRadius: 60
   AttackCd: 5
   ShootCharge: 1

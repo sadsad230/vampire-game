@@ -6,10 +6,14 @@ public class Enemy : ManagedBehaviour
     public int MaxHp = 10;
     public int Damage = 0;
     public float Range = 1f;
+    public float Speed;
+    public int BonusXPReward = 0;
+
+    public GameObject loot;
 
     public TimeUntil EndsDamageCd;
     
-    public float Speed;
+    private TimeUntil stunEnds = 0;
     
     protected bool _isStopped = false;
 
@@ -53,8 +57,13 @@ public class Enemy : ManagedBehaviour
             }
         }
         
-        if (!_isStopped)
+        if (!_isStopped && stunEnds)
             transform.position = Vector3.MoveTowards(transform.position, target, Speed * dt);
+    }
+
+    public void StunEnemy(float value)
+    {
+        stunEnds = value;
     }
 
     private void OnDrawGizmos()
